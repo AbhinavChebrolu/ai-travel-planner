@@ -841,7 +841,7 @@ const AITravelPlanner = () => {
       body: JSON.stringify({ email: email }),
     };
     fetch(
-      "https://c4-na.altogic.com/e:6431cdd646d52b27d865c9da/lead",
+      "https://c3-na.altogic.com/e:6490867e2a68a1e88f40ee01/travel",
       requestOptions
     )
       .then((response) => response.json())
